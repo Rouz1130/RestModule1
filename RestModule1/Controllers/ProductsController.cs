@@ -19,9 +19,10 @@ namespace RestModule1.Controllers
         };
 
         // GET: api/Products
-        public IHttpActionResult Get()
+        // Returning other custome status code. This shoes Created which means when you add something to the sever when its created server sends response saying created.
+        public HttpRequestMessage Get()
         {
-            return Ok(products);
+            return new HttpResponseMessage(HttpStatusCode.Created);
         }
 
         // GET: api/Products/5
