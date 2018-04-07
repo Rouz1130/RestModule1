@@ -22,8 +22,6 @@ namespace RestModule1.Controllers
         public IHttpActionResult Get()
         {
             return Ok(products);
-            //return BadRequest(products);
-            //return NotFound(products);
         }
 
         // GET: api/Products/5
