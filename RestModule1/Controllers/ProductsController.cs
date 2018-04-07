@@ -19,9 +19,11 @@ namespace RestModule1.Controllers
         };
 
         // GET: api/Products
-        public IEnumerable<Product> Get()
+        public IHttpActionResult Get()
         {
-            return products;
+            return Ok(products);
+            //return BadRequest(products);
+            //return NotFound(products);
         }
 
         // GET: api/Products/5
