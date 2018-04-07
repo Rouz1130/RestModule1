@@ -20,7 +20,8 @@ namespace RestModule1.Controllers
 
         // GET: api/Products
         // Example shoes that as long as a GET HTTP verb is in place you can add another name with like below Get..Products
-        public IHttpActionResult GetProducts()
+        [HttpGet]
+        public IHttpActionResult LoadProducts()
         {
             return Ok(products);
         }
