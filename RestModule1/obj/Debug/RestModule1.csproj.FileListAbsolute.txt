@@ -1,0 +1,17 @@
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\RestModule1.dll.config
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\RestModule1.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\RestModule1.pdb
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\Newtonsoft.Json.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Net.Http.Formatting.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Web.Http.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Web.Http.WebHost.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\Newtonsoft.Json.xml
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Net.Http.Formatting.xml
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Web.Http.xml
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\bin\System.Web.Http.WebHost.xml
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\obj\Debug\RestModule1.csprojResolveAssemblyReference.cache
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\obj\Debug\RestModule1.csproj.CoreCompileInputs.cache
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\obj\Debug\RestModule1.dll
+C:\Users\Rouz\source\repos\RestModule1\RestModule1\obj\Debug\RestModule1.pdb
