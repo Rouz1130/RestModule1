@@ -13,7 +13,7 @@ namespace RestModule1.Models
         [Required, StringLength(15)]
         public string Name { get; set; }
 
-        [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")]
+        [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$", ErrorMessage ="Email is invalid")]
         public string Email { get; set; }
 
         [RegularExpression(@"^\(?([0-9]{3})\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$")]
