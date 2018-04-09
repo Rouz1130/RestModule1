@@ -20,9 +20,9 @@ namespace RestModule1.Controllers
 
 
         // GET: api/Customer
-        public IEnumerable<string> Get()
+        public IEnumerable<Customer> Get()
         {
-            return new string[] { "value1", "value2" };
+            return customers;
         }
 
         // GET: api/Customer/5
@@ -32,8 +32,9 @@ namespace RestModule1.Controllers
         }
 
         // POST: api/Customer
-        public void Post([FromBody]string value)
+        public void Post([FromBody] Customer customer)
         {
+            customers.Add(customer);
         }
 
         // PUT: api/Customer/5
