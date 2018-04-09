@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace RestModule1.Controllers
 {
-    public class CustomerController : ApiController
+    public class CustomersController : ApiController
     {
         static List<Customer> customers = new List<Customer>()
         {
