@@ -42,8 +42,8 @@ namespace RestModule1.Controllers
 
         // PUT: api/Products/5
         // Example of FromUri instead of FromBody
-        //FromUri: You can pass data from URI
-        public void Put(int id, [FromUri]Product product)
+        //This example shoes that the id value can be read Frombody and the product FromUri.Important for username passwords if you want to overide the default method calls.
+        public void Put([FromBody] int id, [FromUri]Product product)
         {
             products[id] = product;
         }
